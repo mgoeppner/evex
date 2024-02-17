@@ -1,0 +1,6 @@
+__pycache__/
+.vs/
+build/
+dist/
+env/
+resources/sde.sqlite
