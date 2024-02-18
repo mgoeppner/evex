@@ -63,7 +63,6 @@ async def login() -> EsiCharacter:
         "state": "evex-login",
     }
 
-    print("lmaoooo")
     webbrowser.open(f"{AUTH_URL}?{urlencode(auth_params)}")
 
     loop = asyncio.get_event_loop()
